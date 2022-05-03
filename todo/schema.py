@@ -21,3 +21,4 @@ instructions = [
         )
     """
 ]
+#* Definimos instrucciones a realizares en la base de datos
