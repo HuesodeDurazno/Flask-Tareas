@@ -24,7 +24,7 @@ def create_app():
     
     from . import auth
     
-    app.register.blueprint(auth.bp)
+    app.register_blueprint(auth.bp)
     
     #*Definimos ruta hola
     @app.route('/hola')
